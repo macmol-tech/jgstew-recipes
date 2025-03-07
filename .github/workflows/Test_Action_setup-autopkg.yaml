@@ -10,7 +10,7 @@ on:
     paths:
       - ".github/workflows/Test_Action_setup-autopkg.yaml"
       - ".github/actions/setup-autopkg/**"
-
+  workflow_dispatch: # manually triggered
 jobs:
   TestAction_setup-autopkg:
     strategy:
